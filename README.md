@@ -2,6 +2,10 @@
 
 A modern, scalable TypeScript starter template for Node.js applications with pre-configured testing, building, and automated release workflows.
 
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/node.js-%23339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Vitest](https://img.shields.io/badge/vitest-%2399c33b?logo=vitest&logoColor=white)](https://vitest.dev/)
+
 ## Features
 
 - **TypeScript 5.9+** - Write type-safe code with the latest TypeScript features
