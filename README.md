@@ -147,6 +147,8 @@ The repository uses GitHub Actions with `release-please` for automatic versionin
    - GitHub Release publication
    - Version bump in `package.json`
 
+> ⚠️ **Important**: The **actual release only happens when a Release PR is merged into the `main` branch**. Pushing commits alone does not trigger a release — the automated workflow first creates a Release PR (opening as a pull request), and the release is finalized only after this PR is approved and merged.
+
 No manual version management needed!
 
 ## Configuration
