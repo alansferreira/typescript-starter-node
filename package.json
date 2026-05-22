@@ -7,14 +7,15 @@
     "dev": "node --import tsx src/index.ts",
     "build": "webpack --config webpack.config.cjs",
     "start": "node dist/index.js",
-    "test": "vitest",
-    "test:watch": "vitest --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "test:debug": "vitest --run --inspect-brk"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
     "lodash": "^4.17.23",
-    "uuid": "^13.0.0"
+    "uuid": "^13.0.0",
+    "xior": "^0.1.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.23",

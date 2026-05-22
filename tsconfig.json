@@ -4,17 +4,15 @@
     "moduleResolution": "node",
     "allowJs": false,
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./src/*"]
     },
-
     "target": "esnext",
     "module": "esnext",
     "lib": ["ESNext"],
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-
+    "types": ["node", "vitest/globals"]
   },
-  "files": ["./src/index.ts"],
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
