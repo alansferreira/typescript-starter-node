@@ -1,0 +1,11 @@
+{
+  "name": "TypeScript Starter Node",
+  "description": "A modern, scalable TypeScript starter template for Node.js",
+  "tags": ["typescript", "starter", "template", "node", "vitest", "webpack"],
+  "keywords": ["typescript", "nodejs", "starter-template", "boilerplate"],
+  "technologies": ["TypeScript", "Node.js", "Vitest", "Webpack"],
+  "category": "backend",
+  "version": "1.0.0",
+  "scaffoldingTool": "manual-copy",
+  "license": "MIT"
+}
